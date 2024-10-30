@@ -25,6 +25,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter:2.2.2.RELEASE'
     implementation('org.springframework.boot:spring-boot-starter-web:2.6.2')
     implementation('org.springframework.boot:spring-boot-starter-actuator:2.6.2')
+    implementation 'io.micrometer:micrometer-registry-prometheus:1.10.2'
     implementation 'org.apache.camel:camel-endpointdsl:3.4.0'
     implementation 'org.apache.camel:camel-jetty:3.4.0'
     implementation 'org.apache.camel:camel-undertow:3.4.0'
