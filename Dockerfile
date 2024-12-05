@@ -13,5 +13,6 @@ WORKDIR /app
 COPY --from=build /ph-ee-connector-ams-pesacore/build/libs/ph-ee-connector-ams-pesacore*.jar ph-ee-connector-ams-pesacore.jar
 
 EXPOSE 5000
+EXPOSE 8080
 
 ENTRYPOINT ["java", "-jar", "/app/ph-ee-connector-ams-pesacore.jar"]
